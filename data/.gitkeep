@@ -1,0 +1,5 @@
+# This directory contains local data (gitignored).
+# Subdirectories:
+#   phase0_results/  — raw JSON from API validation tests
+#   exports/         — native Play-Cricket CSV stat exports
+#   btcc.db          — SQLite database (Phase 2)
