@@ -358,7 +358,7 @@ def generate_feeds(season: int):
 
     print(f"\nGenerating feeds:")
 
-   # Individual senior feeds — group teams that share a feed filename
+    # Individual senior feeds — group teams that share a feed filename
     feeds = {}
     for tid, cfg in SENIOR_TEAMS.items():
         feed_name = cfg["feed"]
