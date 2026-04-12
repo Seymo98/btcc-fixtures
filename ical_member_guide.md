@@ -17,6 +17,17 @@ No more checking WhatsApp or the website for fixture times. Subscribe once and e
 | **All Seniors** | Everything above in one feed |
 | **Juniors** | All junior age group matches |
 
+## Subscribe to Fixtures
+
+| Feed | Link |
+|------|------|
+| 1st XI | [Subscribe](https://seymo98.github.io/btcc-fixtures/outputs/feeds/btcc-1stxi.ics) |
+| 2nd XI | [Subscribe](https://seymo98.github.io/btcc-fixtures/outputs/feeds/btcc-2ndxi.ics) |
+| Sunday | [Subscribe](https://seymo98.github.io/btcc-fixtures/outputs/feeds/btcc-sunday.ics) |
+| Midweek | [Subscribe](https://seymo98.github.io/btcc-fixtures/outputs/feeds/btcc-midweek.ics) |
+| All Seniors | [Subscribe](https://seymo98.github.io/btcc-fixtures/outputs/feeds/btcc-seniors.ics) |
+| Juniors | [Subscribe](https://seymo98.github.io/btcc-fixtures/outputs/feeds/btcc-juniors.ics) |
+
 ---
 
 ## iPhone / iPad
