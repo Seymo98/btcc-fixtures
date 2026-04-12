@@ -1,0 +1,38 @@
+name: Update BTCC Fixture Feeds
+
+on:
+  schedule:
+    # Run at 7am UK time every day (6am UTC in winter, but cron is UTC)
+    # 06:00 UTC = 07:00 BST (summer) / 06:00 GMT (winter)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate iCal feeds
+        env:
+          PLAY_CRICKET_API_KEY: ${{ secrets.PLAY_CRICKET_API_KEY }}
+          BTCC_SITE_ID: '950'
+        run: python scripts/ical_generator.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "BTCC Feed Bot"
+          git config user.email "btcc-bot@users.noreply.github.com"
+          git add outputs/feeds/
+          git diff --staged --quiet || (git commit -m "Auto-update feeds $(date +%Y-%m-%d)" && git push)
