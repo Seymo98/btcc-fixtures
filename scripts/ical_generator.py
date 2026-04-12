@@ -150,7 +150,8 @@ def is_btcc_home(match: dict) -> bool:
 def get_duration_hrs(team_id: str, match: dict) -> float:
     """Determine match duration in hours."""
     match_type = match.get("match_type", "")
-    if "T20" in match_type or "Twenty" in match_type:
+    comp_name = match.get("competition_name", "")
+    if "T20" in match_type or "Twenty" in match_type or "T20" in comp_name or "PLT" in comp_name:
         return 3.0
     if team_id in SENIOR_TEAMS:
         return SENIOR_TEAMS[team_id]["duration_hrs"]

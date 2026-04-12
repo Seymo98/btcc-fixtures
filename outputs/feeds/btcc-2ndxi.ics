@@ -86,7 +86,7 @@ BEGIN:VEVENT
 UID:playcricket-7644134@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260512T180000
-DTEND;TZID=Europe/London:20260513T013000
+DTEND;TZID=Europe/London:20260512T210000
 SUMMARY:BTCC 2nd XI vs Asian Sports CC\, Leics (H)
 DESCRIPTION:T20 Bowl - West\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
