@@ -346,9 +346,18 @@ def generate_feeds(season: int):
 
     print(f"\nGenerating feeds:")
 
-    # Individual senior feeds
+   # Individual senior feeds — group teams that share a feed filename
+    feeds = {}
     for tid, cfg in SENIOR_TEAMS.items():
-        write_feed(f"{cfg['feed']}.ics", f"BTCC {cfg['name']} {season}", [tid])
+        feed_name = cfg["feed"]
+        if feed_name not in feeds:
+            feeds[feed_name] = {"name": cfg["name"], "team_ids": []}
+        feeds[feed_name]["team_ids"].append(tid)
+
+    for feed_name, feed_cfg in feeds.items():
+        write_feed(f"{feed_name}.ics",
+                   f"BTCC {feed_cfg['name']} {season}",
+                   feed_cfg["team_ids"])
 
     # Combined seniors
     write_feed("btcc-all.ics", f"BTCC Senior Fixtures {season}",
