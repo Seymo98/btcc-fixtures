@@ -215,8 +215,8 @@ def match_to_vevent(match: dict, team_id: str, team_name: str,
     match_time = match.get("match_time", "")
     h, m = parse_pc_time(match_time)
 
-     # If no time specified, use sensible defaults by team/day
-     if not match_time:
+    # If no time specified, use sensible defaults by team/day
+    if not match_time:
         if team_id in JUNIOR_TEAMS:
             if dt.weekday() == 6:  # Sunday
                 h, m = 10, 0
