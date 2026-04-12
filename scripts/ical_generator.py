@@ -360,7 +360,7 @@ def generate_feeds(season: int):
                    feed_cfg["team_ids"])
 
     # Combined seniors
-    write_feed("btcc-all.ics", f"BTCC Senior Fixtures {season}",
+    write_feed("btcc-seniors.ics", f"BTCC Senior Fixtures {season}",
                list(SENIOR_TEAMS.keys()))
 
     # Combined juniors
