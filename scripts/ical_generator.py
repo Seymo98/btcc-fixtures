@@ -212,7 +212,7 @@ def match_to_vevent(match: dict, team_id: str, team_name: str,
     if not dt:
         return None
 
-   match_time = match.get("match_time", "")
+    match_time = match.get("match_time", "")
     h, m = parse_pc_time(match_time)
 
     # If no time specified for junior matches, use sensible defaults
