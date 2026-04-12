@@ -149,11 +149,11 @@ def is_btcc_home(match: dict) -> bool:
 
 def get_duration_hrs(team_id: str, match: dict) -> float:
     """Determine match duration in hours."""
-    if team_id in SENIOR_TEAMS:
-        return SENIOR_TEAMS[team_id]["duration_hrs"]
     match_type = match.get("match_type", "")
     if "T20" in match_type or "Twenty" in match_type:
         return 3.0
+    if team_id in SENIOR_TEAMS:
+        return SENIOR_TEAMS[team_id]["duration_hrs"]
     if team_id in JUNIOR_TEAMS:
         return DEFAULT_DURATION_HRS["junior"]
     return DEFAULT_DURATION_HRS["fallback"]
