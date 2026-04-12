@@ -326,7 +326,7 @@ BEGIN:VEVENT
 UID:playcricket-7639643@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260412T000000
 DTSTART;TZID=Europe/London:20260412T120000
-DTEND;TZID=Europe/London:20260412T193000
+DTEND;TZID=Europe/London:20260412T183000
 SUMMARY:BTCC 2nd XI vs Rothley Park CC (H) — Abandoned
 DESCRIPTION:Friendly\nBarrow Town Cricket Club\nResult: Abandoned
 LOCATION:Barrow Town Cricket Club
@@ -338,7 +338,7 @@ BEGIN:VEVENT
 UID:playcricket-7556290@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260318T000000
 DTSTART;TZID=Europe/London:20260418T130000
-DTEND;TZID=Europe/London:20260418T203000
+DTEND;TZID=Europe/London:20260418T193000
 SUMMARY:BTCC 2nd XI vs Thorpe Arnold CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -350,7 +350,7 @@ BEGIN:VEVENT
 UID:playcricket-7556297@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260425T130000
-DTEND;TZID=Europe/London:20260425T203000
+DTEND;TZID=Europe/London:20260425T193000
 SUMMARY:BTCC 2nd XI vs Houghton & Thurnby CC (A)
 DESCRIPTION:Premier 3 North\nWadkins Pavilion
 LOCATION:Wadkins Pavilion
@@ -362,7 +362,7 @@ BEGIN:VEVENT
 UID:playcricket-7556304@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260502T130000
-DTEND;TZID=Europe/London:20260502T203000
+DTEND;TZID=Europe/London:20260502T193000
 SUMMARY:BTCC 2nd XI vs Long Whatton CC (A)
 DESCRIPTION:Premier 3 North\nLong Whatton CC
 LOCATION:Long Whatton CC
@@ -374,7 +374,7 @@ BEGIN:VEVENT
 UID:playcricket-7556308@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260509T130000
-DTEND;TZID=Europe/London:20260509T203000
+DTEND;TZID=Europe/London:20260509T193000
 SUMMARY:BTCC 2nd XI vs Syston Town CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -398,7 +398,7 @@ BEGIN:VEVENT
 UID:playcricket-7556314@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260516T130000
-DTEND;TZID=Europe/London:20260516T203000
+DTEND;TZID=Europe/London:20260516T193000
 SUMMARY:BTCC 2nd XI vs Bharat Sports CC\, Leics (A)
 DESCRIPTION:Premier 3 North\nGavaskar Cricket Ground
 LOCATION:Gavaskar Cricket Ground
@@ -410,7 +410,7 @@ BEGIN:VEVENT
 UID:playcricket-7556320@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260523T130000
-DTEND;TZID=Europe/London:20260523T203000
+DTEND;TZID=Europe/London:20260523T193000
 SUMMARY:BTCC 2nd XI vs Sileby Town CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -422,7 +422,7 @@ BEGIN:VEVENT
 UID:playcricket-7556327@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260530T130000
-DTEND;TZID=Europe/London:20260530T203000
+DTEND;TZID=Europe/London:20260530T193000
 SUMMARY:BTCC 2nd XI vs Kegworth Town CC (A)
 DESCRIPTION:Premier 3 North\nKegworth Town CC
 LOCATION:Kegworth Town CC
@@ -434,7 +434,7 @@ BEGIN:VEVENT
 UID:playcricket-7556335@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260606T130000
-DTEND;TZID=Europe/London:20260606T203000
+DTEND;TZID=Europe/London:20260606T193000
 SUMMARY:BTCC 2nd XI vs Oakham CC (A)
 DESCRIPTION:Premier 3 North\nOakham CC
 LOCATION:Oakham CC
@@ -446,7 +446,7 @@ BEGIN:VEVENT
 UID:playcricket-7556337@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260613T130000
-DTEND;TZID=Europe/London:20260613T203000
+DTEND;TZID=Europe/London:20260613T193000
 SUMMARY:BTCC 2nd XI vs Asian Sports CC\, Leics (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -458,7 +458,7 @@ BEGIN:VEVENT
 UID:playcricket-7556344@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260620T130000
-DTEND;TZID=Europe/London:20260620T203000
+DTEND;TZID=Europe/London:20260620T193000
 SUMMARY:BTCC 2nd XI vs Cropston CC (A)
 DESCRIPTION:Premier 3 North\nKeith Jackson Memorial Ground\, Cropston
 LOCATION:Keith Jackson Memorial Ground\, Cropston
@@ -470,7 +470,7 @@ BEGIN:VEVENT
 UID:playcricket-7556350@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260627T130000
-DTEND;TZID=Europe/London:20260627T203000
+DTEND;TZID=Europe/London:20260627T193000
 SUMMARY:BTCC 2nd XI vs Bardon Hill CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -482,7 +482,7 @@ BEGIN:VEVENT
 UID:playcricket-7556356@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260704T130000
-DTEND;TZID=Europe/London:20260704T203000
+DTEND;TZID=Europe/London:20260704T193000
 SUMMARY:BTCC 2nd XI vs Long Whatton CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -494,7 +494,7 @@ BEGIN:VEVENT
 UID:playcricket-7556366@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260711T130000
-DTEND;TZID=Europe/London:20260711T203000
+DTEND;TZID=Europe/London:20260711T193000
 SUMMARY:BTCC 2nd XI vs Syston Town CC (A)
 DESCRIPTION:Premier 3 North\nSyston Town CC
 LOCATION:Syston Town CC
@@ -506,7 +506,7 @@ BEGIN:VEVENT
 UID:playcricket-7556368@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260718T130000
-DTEND;TZID=Europe/London:20260718T203000
+DTEND;TZID=Europe/London:20260718T193000
 SUMMARY:BTCC 2nd XI vs Bharat Sports CC\, Leics (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -518,7 +518,7 @@ BEGIN:VEVENT
 UID:playcricket-7556377@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260725T130000
-DTEND;TZID=Europe/London:20260725T203000
+DTEND;TZID=Europe/London:20260725T193000
 SUMMARY:BTCC 2nd XI vs Sileby Town CC (A)
 DESCRIPTION:Premier 3 North\nMill Lane - Pitch Two
 LOCATION:Mill Lane - Pitch Two
@@ -530,7 +530,7 @@ BEGIN:VEVENT
 UID:playcricket-7556380@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260801T130000
-DTEND;TZID=Europe/London:20260801T203000
+DTEND;TZID=Europe/London:20260801T193000
 SUMMARY:BTCC 2nd XI vs Kegworth Town CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -542,7 +542,7 @@ BEGIN:VEVENT
 UID:playcricket-7556386@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260808T130000
-DTEND;TZID=Europe/London:20260808T203000
+DTEND;TZID=Europe/London:20260808T193000
 SUMMARY:BTCC 2nd XI vs Houghton & Thurnby CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -554,7 +554,7 @@ BEGIN:VEVENT
 UID:playcricket-7556396@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260815T130000
-DTEND;TZID=Europe/London:20260815T203000
+DTEND;TZID=Europe/London:20260815T193000
 SUMMARY:BTCC 2nd XI vs Thorpe Arnold CC (A)
 DESCRIPTION:Premier 3 North\nThorpe Arnold Cricket Ground
 LOCATION:Thorpe Arnold Cricket Ground
@@ -566,7 +566,7 @@ BEGIN:VEVENT
 UID:playcricket-7556398@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260822T130000
-DTEND;TZID=Europe/London:20260822T203000
+DTEND;TZID=Europe/London:20260822T193000
 SUMMARY:BTCC 2nd XI vs Cropston CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -578,7 +578,7 @@ BEGIN:VEVENT
 UID:playcricket-7556403@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260829T130000
-DTEND;TZID=Europe/London:20260829T203000
+DTEND;TZID=Europe/London:20260829T193000
 SUMMARY:BTCC 2nd XI vs Bardon Hill CC (A)
 DESCRIPTION:Premier 3 North\nBardon Hill Sports Ground
 LOCATION:Bardon Hill Sports Ground
@@ -590,7 +590,7 @@ BEGIN:VEVENT
 UID:playcricket-7556409@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260905T123000
-DTEND;TZID=Europe/London:20260905T200000
+DTEND;TZID=Europe/London:20260905T190000
 SUMMARY:BTCC 2nd XI vs Oakham CC (H)
 DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -602,7 +602,7 @@ BEGIN:VEVENT
 UID:playcricket-7556415@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260912T123000
-DTEND;TZID=Europe/London:20260912T200000
+DTEND;TZID=Europe/London:20260912T190000
 SUMMARY:BTCC 2nd XI vs Asian Sports CC\, Leics (A)
 DESCRIPTION:Premier 3 North\n1st XI Home Ground
 LOCATION:1st XI Home Ground
@@ -614,7 +614,7 @@ BEGIN:VEVENT
 UID:playcricket-7334939@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260510T130000
-DTEND;TZID=Europe/London:20260510T183000
+DTEND;TZID=Europe/London:20260510T190000
 SUMMARY:BTCC Sunday XI vs Thorpe Arnold CC (A)
 DESCRIPTION:Division 1\nThorpe Arnold Cricket Ground
 LOCATION:Thorpe Arnold Cricket Ground
@@ -626,7 +626,7 @@ BEGIN:VEVENT
 UID:playcricket-7334848@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260517T130000
-DTEND;TZID=Europe/London:20260517T183000
+DTEND;TZID=Europe/London:20260517T190000
 SUMMARY:BTCC Sunday XI vs Houghton Stars CC  (A)
 DESCRIPTION:Division 1
 STATUS:CONFIRMED
@@ -636,7 +636,7 @@ BEGIN:VEVENT
 UID:playcricket-7334791@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260531T130000
-DTEND;TZID=Europe/London:20260531T183000
+DTEND;TZID=Europe/London:20260531T190000
 SUMMARY:BTCC Sunday XI vs Oadby Royals CC (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -648,7 +648,7 @@ BEGIN:VEVENT
 UID:playcricket-7334768@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260607T130000
-DTEND;TZID=Europe/London:20260607T183000
+DTEND;TZID=Europe/London:20260607T190000
 SUMMARY:BTCC Sunday XI vs Barkby United CC (A)
 DESCRIPTION:Division 1\nBarkby United CC
 LOCATION:Barkby United CC
@@ -660,7 +660,7 @@ BEGIN:VEVENT
 UID:playcricket-7334792@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260614T130000
-DTEND;TZID=Europe/London:20260614T183000
+DTEND;TZID=Europe/London:20260614T190000
 SUMMARY:BTCC Sunday XI vs Rothley Park CC (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -672,7 +672,7 @@ BEGIN:VEVENT
 UID:playcricket-7334919@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260621T130000
-DTEND;TZID=Europe/London:20260621T183000
+DTEND;TZID=Europe/London:20260621T190000
 SUMMARY:BTCC Sunday XI vs Syston Town CC (A)
 DESCRIPTION:Division 1
 STATUS:CONFIRMED
@@ -682,7 +682,7 @@ BEGIN:VEVENT
 UID:playcricket-7334793@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260628T130000
-DTEND;TZID=Europe/London:20260628T183000
+DTEND;TZID=Europe/London:20260628T190000
 SUMMARY:BTCC Sunday XI vs Sileby Town CC (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -694,7 +694,7 @@ BEGIN:VEVENT
 UID:playcricket-7334828@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260705T130000
-DTEND;TZID=Europe/London:20260705T183000
+DTEND;TZID=Europe/London:20260705T190000
 SUMMARY:BTCC Sunday XI vs Grantham CC (A)
 DESCRIPTION:Division 1\nGorse Lane
 LOCATION:Gorse Lane
@@ -706,7 +706,7 @@ BEGIN:VEVENT
 UID:playcricket-7334795@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260719T130000
-DTEND;TZID=Europe/London:20260719T183000
+DTEND;TZID=Europe/London:20260719T190000
 SUMMARY:BTCC Sunday XI vs Thorpe Arnold CC (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -718,7 +718,7 @@ BEGIN:VEVENT
 UID:playcricket-7334790@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260407T000000
 DTSTART;TZID=Europe/London:20260726T130000
-DTEND;TZID=Europe/London:20260726T183000
+DTEND;TZID=Europe/London:20260726T190000
 SUMMARY:BTCC Sunday XI vs Houghton Stars CC  (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -730,7 +730,7 @@ BEGIN:VEVENT
 UID:playcricket-7334865@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260802T130000
-DTEND;TZID=Europe/London:20260802T183000
+DTEND;TZID=Europe/London:20260802T190000
 SUMMARY:BTCC Sunday XI vs Oadby Royals CC (A)
 DESCRIPTION:Division 1\nSigiriya Sports Ground - Illston Abbey CC
 LOCATION:Sigiriya Sports Ground - Illston Abbey CC
@@ -742,7 +742,7 @@ BEGIN:VEVENT
 UID:playcricket-7334787@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260809T130000
-DTEND;TZID=Europe/London:20260809T183000
+DTEND;TZID=Europe/London:20260809T190000
 SUMMARY:BTCC Sunday XI vs Barkby United CC (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -754,7 +754,7 @@ BEGIN:VEVENT
 UID:playcricket-7334886@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260816T130000
-DTEND;TZID=Europe/London:20260816T183000
+DTEND;TZID=Europe/London:20260816T190000
 SUMMARY:BTCC Sunday XI vs Rothley Park CC (A)
 DESCRIPTION:Division 1\nRothley Park
 LOCATION:Rothley Park
@@ -766,7 +766,7 @@ BEGIN:VEVENT
 UID:playcricket-7334794@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260823T130000
-DTEND;TZID=Europe/London:20260823T183000
+DTEND;TZID=Europe/London:20260823T190000
 SUMMARY:BTCC Sunday XI vs Syston Town CC (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -778,7 +778,7 @@ BEGIN:VEVENT
 UID:playcricket-7334902@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260906T130000
-DTEND;TZID=Europe/London:20260906T183000
+DTEND;TZID=Europe/London:20260906T190000
 SUMMARY:BTCC Sunday XI vs Sileby Town CC (A)
 DESCRIPTION:Division 1\nMill Lane - Pitch One
 LOCATION:Mill Lane - Pitch One
@@ -790,7 +790,7 @@ BEGIN:VEVENT
 UID:playcricket-7334789@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260211T000000
 DTSTART;TZID=Europe/London:20260913T130000
-DTEND;TZID=Europe/London:20260913T183000
+DTEND;TZID=Europe/London:20260913T190000
 SUMMARY:BTCC Sunday XI vs Grantham CC (H)
 DESCRIPTION:Division 1\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club
@@ -802,7 +802,7 @@ BEGIN:VEVENT
 UID:playcricket-7578393@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260313T000000
 DTSTART;TZID=Europe/London:20260426T130000
-DTEND;TZID=Europe/London:20260426T183000
+DTEND;TZID=Europe/London:20260426T190000
 SUMMARY:BTCC Sunday Friendly XI vs Sawley CC (H)
 DESCRIPTION:Friendly\nBarrow Town Cricket Club
 LOCATION:Barrow Town Cricket Club

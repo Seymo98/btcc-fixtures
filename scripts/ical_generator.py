@@ -48,9 +48,9 @@ OUTPUT_DIR = REPO_ROOT / "outputs" / "feeds"
 # Team IDs confirmed from Phase 0 (stable across seasons)
 SENIOR_TEAMS = {
     "35112":  {"name": "1st XI",              "feed": "btcc-1stxi",   "duration_hrs": 7.5},
-    "35113":  {"name": "2nd XI",              "feed": "btcc-2ndxi",   "duration_hrs": 7.5},
-    "278687": {"name": "Sunday XI",           "feed": "btcc-sunday",  "duration_hrs": 5.5},
-    "35120":  {"name": "Sunday Friendly XI",  "feed": "btcc-sunday",  "duration_hrs": 5.5},
+    "35113":  {"name": "2nd XI",              "feed": "btcc-2ndxi",   "duration_hrs": 6.5},
+    "278687": {"name": "Sunday XI",           "feed": "btcc-sunday",  "duration_hrs": 6.0},
+    "35120":  {"name": "Sunday Friendly XI",  "feed": "btcc-sunday",  "duration_hrs": 6.0},
     "35119":  {"name": "Midweek XI",          "feed": "btcc-midweek", "duration_hrs": 3.0},
     }
 
