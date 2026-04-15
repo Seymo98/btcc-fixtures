@@ -8,7 +8,7 @@ Members subscribe once in their phone/calendar app; fixtures auto-update
 when this script re-runs. Post-match, events are updated with results.
 
 Outputs to outputs/feeds/:
-    btcc-all.ics        — all senior teams
+    btcc-seniors.ics    — all senior teams
     btcc-1stxi.ics      — 1st XI only
     btcc-2ndxi.ics      — 2nd XI only
     btcc-sunday.ics     — Sunday XI
@@ -16,7 +16,7 @@ Outputs to outputs/feeds/:
     btcc-juniors.ics    — all junior teams
 
 Usage:
-    python scripts/ical_generator.py                  # 2026 season (default)
+    python scripts/ical_generator.py                  # current year season
     python scripts/ical_generator.py --season 2025    # specific season
 
 Designed to run daily via cron or GitHub Actions.
@@ -52,7 +52,7 @@ SENIOR_TEAMS = {
     "278687": {"name": "Sunday XI",           "feed": "btcc-sunday",  "duration_hrs": 6.0},
     "35120":  {"name": "Sunday Friendly XI",  "feed": "btcc-sunday",  "duration_hrs": 6.0},
     "35119":  {"name": "Midweek XI",          "feed": "btcc-midweek", "duration_hrs": 3.0},
-    }
+}
 
 JUNIOR_TEAMS = {
     "35117":  {"name": "Under 11"},
@@ -75,30 +75,38 @@ DEFAULT_DURATION_HRS = {
 
 def fetch_matches(season: int) -> list:
     """Fetch all BTCC matches for a season."""
-    resp = requests.get(f"{BASE_URL}/matches.json", params={
-        "site_id": BTCC_SITE_ID,
-        "season": season,
-        "api_token": API_KEY,
-    }, timeout=30)
-    if resp.status_code != 200:
-        print(f"  ⚠ matches.json returned HTTP {resp.status_code}")
+    try:
+        resp = requests.get(f"{BASE_URL}/matches.json", params={
+            "site_id": BTCC_SITE_ID,
+            "season": season,
+            "api_token": API_KEY,
+        }, timeout=30)
+        if resp.status_code != 200:
+            print(f"  ⚠ matches.json returned HTTP {resp.status_code}")
+            return []
+        data = resp.json()
+        return data if isinstance(data, list) else data.get("matches", [])
+    except (requests.exceptions.RequestException, ValueError) as e:
+        print(f"  ⚠ Failed to fetch matches: {e}")
         return []
-    data = resp.json()
-    return data if isinstance(data, list) else data.get("matches", [])
 
 
 def fetch_results(season: int) -> dict:
     """Fetch result summaries, keyed by match id string."""
-    resp = requests.get(f"{BASE_URL}/result_summary.json", params={
-        "site_id": BTCC_SITE_ID,
-        "season": season,
-        "api_token": API_KEY,
-    }, timeout=30)
-    if resp.status_code != 200:
+    try:
+        resp = requests.get(f"{BASE_URL}/result_summary.json", params={
+            "site_id": BTCC_SITE_ID,
+            "season": season,
+            "api_token": API_KEY,
+        }, timeout=30)
+        if resp.status_code != 200:
+            return {}
+        data = resp.json()
+        rlist = data if isinstance(data, list) else data.get("result_summary", [])
+        return {str(r.get("id", r.get("match_id", ""))): r for r in rlist}
+    except (requests.exceptions.RequestException, ValueError) as e:
+        print(f"  ⚠ Failed to fetch results: {e}")
         return {}
-    data = resp.json()
-    rlist = data if isinstance(data, list) else data.get("result_summary", [])
-    return {str(r.get("id", r.get("match_id", ""))): r for r in rlist}
 
 
 # ---------------------------------------------------------------------------
@@ -163,7 +171,6 @@ def get_duration_hrs(team_id: str, match: dict) -> float:
 def build_summary(match: dict, team_name: str, result: dict = None) -> str:
     """Event title: BTCC 1st XI vs Opponent Club (H) — Result."""
     if is_btcc_home(match):
-        # Use club name for opponent — team_name is just "1st XI" etc.
         opp = match.get("away_club_name", "") or match.get("away_team_name", "TBC")
         ha = "(H)"
     else:
@@ -248,7 +255,7 @@ def match_to_vevent(match: dict, team_id: str, team_name: str,
 
     lines = [
         "BEGIN:VEVENT",
-        f"UID:playcricket-{match_id}@btcc.org.uk",
+        f"UID:playcricket-{match_id}-{team_id}@btcc.org.uk",
         f"DTSTAMP;TZID=Europe/London:{dtstamp}",
         f"DTSTART;TZID=Europe/London:{dt_start.strftime(ts_fmt)}",
         f"DTEND;TZID=Europe/London:{dt_end.strftime(ts_fmt)}",
@@ -383,10 +390,6 @@ def generate_feeds(season: int):
     # Summary
     print(f"\n{'='*50}")
     print(f"{len(written)} feeds written to {OUTPUT_DIR.relative_to(REPO_ROOT)}/")
-    print(f"\nNext steps:")
-    print(f"  1. Open a .ics file to test in your calendar app")
-    print(f"  2. For subscribable feeds, host on GitHub Pages")
-    print(f"  3. Re-run daily to pick up results and changes")
     print(f"{'='*50}")
 
 
@@ -396,8 +399,8 @@ def main():
         sys.exit(1)
 
     parser = argparse.ArgumentParser(description="Generate BTCC iCal fixture feeds")
-    parser.add_argument("--season", type=int, default=2026,
-                        help="Season year (default: 2026)")
+    parser.add_argument("--season", type=int, default=datetime.now().year,
+                        help="Season year (default: current year)")
     args = parser.parse_args()
 
     generate_feeds(args.season)

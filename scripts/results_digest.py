@@ -20,6 +20,7 @@ Ref: Play-Cricket API Strategy v2, Phase 1a
 
 import os
 import sys
+import time
 import argparse
 import json
 from datetime import datetime, timedelta
@@ -83,31 +84,39 @@ def fetch_results(season: int, from_date: str = None, to_date: str = None) -> li
     if to_date:
         params["end_match_date"] = to_date
 
-    resp = requests.get(f"{BASE_URL}/result_summary.json", params=params, timeout=30)
-    if resp.status_code != 200:
-        print(f"  ⚠ result_summary returned HTTP {resp.status_code}")
+    try:
+        resp = requests.get(f"{BASE_URL}/result_summary.json", params=params, timeout=30)
+        if resp.status_code != 200:
+            print(f"  ⚠ result_summary returned HTTP {resp.status_code}")
+            return []
+        data = resp.json()
+        return data if isinstance(data, list) else data.get("result_summary", [])
+    except (requests.exceptions.RequestException, ValueError) as e:
+        print(f"  ⚠ Failed to fetch results: {e}")
         return []
-    data = resp.json()
-    return data if isinstance(data, list) else data.get("result_summary", [])
 
 
 def fetch_match_detail(match_id) -> dict:
     """Fetch full scorecard for a match."""
-    resp = requests.get(f"{BASE_URL}/match_detail.json", params={
-        "match_id": match_id,
-        "api_token": API_KEY,
-    }, timeout=30)
-    if resp.status_code != 200:
+    try:
+        resp = requests.get(f"{BASE_URL}/match_detail.json", params={
+            "match_id": match_id,
+            "api_token": API_KEY,
+        }, timeout=30)
+        if resp.status_code != 200:
+            return {}
+        data = resp.json()
+        # match_details is a LIST containing one dict
+        if isinstance(data, dict) and "match_details" in data:
+            md = data["match_details"]
+            if isinstance(md, list) and len(md) > 0:
+                return md[0]
+            elif isinstance(md, dict):
+                return md
+        return data
+    except (requests.exceptions.RequestException, ValueError) as e:
+        print(f"  ⚠ Failed to fetch match {match_id}: {e}")
         return {}
-    data = resp.json()
-    # match_details is a LIST containing one dict
-    if isinstance(data, dict) and "match_details" in data:
-        md = data["match_details"]
-        if isinstance(md, list) and len(md) > 0:
-            return md[0]
-        elif isinstance(md, dict):
-            return md
-    return data
 
 
 # ---------------------------------------------------------------------------
@@ -337,8 +346,8 @@ def main():
         sys.exit(1)
 
     parser = argparse.ArgumentParser(description="Generate BTCC results digest")
-    parser.add_argument("--season", type=int, default=2026,
-                        help="Season year (default: 2026)")
+    parser.add_argument("--season", type=int, default=datetime.now().year,
+                        help="Season year (default: current year)")
     parser.add_argument("--days", type=int, default=7,
                         help="Look back N days (default: 7)")
     parser.add_argument("--date", type=str, default=None,
@@ -394,7 +403,6 @@ def main():
         else:
             print(f"Fetching {len(to_fetch)} scorecards...")
 
-        import time
         for i, r in enumerate(to_fetch):
             mid = str(r.get("id", r.get("match_id", "")))
             if mid:
