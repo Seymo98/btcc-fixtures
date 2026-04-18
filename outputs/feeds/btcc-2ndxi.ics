@@ -36,15 +36,15 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7556290-35113@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260414T000000
+DTSTAMP;TZID=Europe/London:20260418T000000
 DTSTART;TZID=Europe/London:20260418T130000
 DTEND;TZID=Europe/London:20260418T193000
-SUMMARY:BTCC 2nd XI vs Thorpe Arnold CC (H)
-DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club
+SUMMARY:BTCC 2nd XI vs Thorpe Arnold CC (H) — Barrow Town CC\, Leics - 2nd XI - Won
+DESCRIPTION:Premier 3 North\nBarrow Town Cricket Club\nResult: Barrow Town CC\, Leics - 2nd XI - Won
 LOCATION:Barrow Town Cricket Club
 GEO:52.7562823;-1.1436
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7556297-35113@btcc.org.uk
