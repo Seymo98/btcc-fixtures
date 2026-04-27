@@ -48,15 +48,15 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7555899-35112@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260318T000000
+DTSTAMP;TZID=Europe/London:20260426T000000
 DTSTART;TZID=Europe/London:20260425T120000
 DTEND;TZID=Europe/London:20260425T193000
-SUMMARY:BTCC 1st XI vs Loughborough Town CC (H)
-DESCRIPTION:Premier Division\nBarrow Town Cricket Club
+SUMMARY:BTCC 1st XI vs Loughborough Town CC (H) — Loughborough Town CC - 1st XI - Won
+DESCRIPTION:Premier Division\nBarrow Town Cricket Club\nResult: Loughborough Town CC - 1st XI - Won
 LOCATION:Barrow Town Cricket Club
 GEO:52.7562823;-1.1436
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7555905-35112@btcc.org.uk
@@ -348,15 +348,15 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7556297-35113@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260306T000000
+DTSTAMP;TZID=Europe/London:20260427T000000
 DTSTART;TZID=Europe/London:20260425T130000
 DTEND;TZID=Europe/London:20260425T193000
-SUMMARY:BTCC 2nd XI vs Houghton & Thurnby CC (A)
-DESCRIPTION:Premier 3 North\nWadkins Pavilion
+SUMMARY:BTCC 2nd XI vs Houghton & Thurnby CC (A) — Barrow Town CC\, Leics - 2nd XI - Won
+DESCRIPTION:Premier 3 North\nWadkins Pavilion\nResult: Barrow Town CC\, Leics - 2nd XI - Won
 LOCATION:Wadkins Pavilion
 GEO:52.6317368;-1.0336612
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7556304-35113@btcc.org.uk
@@ -383,18 +383,6 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:playcricket-7644134-35113@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260407T000000
-DTSTART;TZID=Europe/London:20260512T180000
-DTEND;TZID=Europe/London:20260512T210000
-SUMMARY:BTCC 2nd XI vs Asian Sports CC\, Leics (H)
-DESCRIPTION:T20 Bowl - West\nBarrow Town Cricket Club
-LOCATION:Barrow Town Cricket Club
-GEO:52.7562823;-1.1436
-STATUS:CONFIRMED
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:playcricket-7556314-35113@btcc.org.uk
 DTSTAMP;TZID=Europe/London:20260306T000000
 DTSTART;TZID=Europe/London:20260516T130000
@@ -403,6 +391,18 @@ SUMMARY:BTCC 2nd XI vs Bharat Sports CC\, Leics (A)
 DESCRIPTION:Premier 3 North\nGavaskar Cricket Ground
 LOCATION:Gavaskar Cricket Ground
 GEO:52.6313748;-1.0684018
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:playcricket-7644134-35113@btcc.org.uk
+DTSTAMP;TZID=Europe/London:20260426T000000
+DTSTART;TZID=Europe/London:20260519T180000
+DTEND;TZID=Europe/London:20260519T210000
+SUMMARY:BTCC 2nd XI vs Asian Sports CC\, Leics (H)
+DESCRIPTION:T20 Bowl - West\nBarrow Town Cricket Club
+LOCATION:Barrow Town Cricket Club
+GEO:52.7562823;-1.1436
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
@@ -800,15 +800,15 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7578393-35120@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260313T000000
+DTSTAMP;TZID=Europe/London:20260426T000000
 DTSTART;TZID=Europe/London:20260426T130000
 DTEND;TZID=Europe/London:20260426T190000
-SUMMARY:BTCC Sunday Friendly XI vs Sawley CC (H)
-DESCRIPTION:Friendly\nBarrow Town Cricket Club
+SUMMARY:BTCC Sunday Friendly XI vs Sawley CC (H) — Barrow Town CC\, Leics - Sunday Friendly XI - Won
+DESCRIPTION:Friendly\nBarrow Town Cricket Club\nResult: Barrow Town CC\, Leics - Sunday Friendly XI - Won
 LOCATION:Barrow Town Cricket Club
 GEO:52.7562823;-1.1436
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7641523-35119@btcc.org.uk
