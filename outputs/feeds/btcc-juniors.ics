@@ -24,15 +24,15 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:playcricket-7669740-35117@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260420T000000
+DTSTAMP;TZID=Europe/London:20260501T000000
 DTSTART;TZID=Europe/London:20260501T180000
 DTEND;TZID=Europe/London:20260501T203000
-SUMMARY:BTCC Under 11 vs Sileby Town CC (H)
-DESCRIPTION:Friendly\nBarrow Town Cricket Club
+SUMMARY:BTCC Under 11 vs Sileby Town CC (H) — Sileby Town CC - Under 11 C - Won
+DESCRIPTION:Friendly\nBarrow Town Cricket Club\nResult: Sileby Town CC - Under 11 C - Won
 LOCATION:Barrow Town Cricket Club
 GEO:52.7562823;-1.1436
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7631597-35117@btcc.org.uk
