@@ -60,15 +60,15 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7555905-35112@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260419T000000
+DTSTAMP;TZID=Europe/London:20260502T000000
 DTSTART;TZID=Europe/London:20260502T120000
 DTEND;TZID=Europe/London:20260502T193000
-SUMMARY:BTCC 1st XI vs Newtown Linford CC (H)
-DESCRIPTION:Premier Division\nBarrow Town Cricket Club
+SUMMARY:BTCC 1st XI vs Newtown Linford CC (H) — Newtown Linford CC - 1st XI - Won
+DESCRIPTION:Premier Division\nBarrow Town Cricket Club\nResult: Newtown Linford CC - 1st XI - Won
 LOCATION:Barrow Town Cricket Club
 GEO:52.7562823;-1.1436
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7644166-35112@btcc.org.uk
@@ -360,15 +360,15 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7556304-35113@btcc.org.uk
-DTSTAMP;TZID=Europe/London:20260424T000000
+DTSTAMP;TZID=Europe/London:20260502T000000
 DTSTART;TZID=Europe/London:20260502T130000
 DTEND;TZID=Europe/London:20260502T193000
-SUMMARY:BTCC 2nd XI vs Long Whatton CC (A)
-DESCRIPTION:Premier 3 North\nLong Whatton CC
+SUMMARY:BTCC 2nd XI vs Long Whatton CC (A) — Long Whatton CC - 1st XI - Won
+DESCRIPTION:Premier 3 North\nLong Whatton CC\nResult: Long Whatton CC - 1st XI - Won
 LOCATION:Long Whatton CC
 GEO:52.8081556;-1.2945723
 STATUS:CONFIRMED
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:playcricket-7556308-35113@btcc.org.uk
